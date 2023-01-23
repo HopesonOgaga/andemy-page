@@ -1,0 +1,61 @@
+*{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.header_list{
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    height: 80px;
+
+}
+.list_div{
+display: flex;
+gap: 1em;
+text-transform: capitalize;
+font-weight: 500;
+text-shadow: none;
+font-size:1em;
+font-family:'Poppins', sans-serif;
+
+}
+
+.form_div{
+display: flex;
+gap: 1em;
+}
+/* button desgn */
+.form_button{
+    width:5vw;
+    height:5vh;
+    background-color: #6750A4;
+    color:white;
+    font-weight:500;
+    font-size: 80%;
+    text-transform: capitalize;
+    border: solid 1px white;
+}
+.form_button_2{
+    width:5vw;
+    height:5vh;
+    background-color:  #FFFFFF;
+    color:#6750A4;
+    font-weight:500;
+    font-size: 80%;
+    text-transform: capitalize;
+    border: solid 1px #6750A4;
+}
+/* grid section */
+.section_grid{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.p_text{
+    font-family:monospace;
+    font-weight:400;
+}
