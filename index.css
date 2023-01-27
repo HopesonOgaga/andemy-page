@@ -1,16 +1,27 @@
 *{
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     text-decoration: none;
     list-style-type: none;
 }
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Poppins:ital,wght@0,100;1,100&family=Quicksand:wght@300&display=swap');
 .header_list{
     display: flex;
     justify-content: space-around;
     gap: 2em;
     height: 80px;
 
+}
+.head_h2_text{
+    font-size: 2.5em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.h2_text{
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 1.6em;
 }
 .list_div{
 display: flex;
@@ -22,10 +33,18 @@ font-size:1em;
 font-family:'Poppins', sans-serif;
 
 }
+a{
+    color: black;
+}
 
 .form_div{
 display: flex;
 gap: 1em;
+}
+
+.head_logo{
+    width:50%;
+ 
 }
 /* button desgn */
 .form_button{
@@ -48,6 +67,10 @@ gap: 1em;
     text-transform: capitalize;
     border: solid 1px #6750A4;
 }
+a:hover{
+  text-decoration: underline;
+  text-decoration-color: #6750A4;
+}
 /* grid section */
 .section_grid{
     /* display: grid;
@@ -56,6 +79,84 @@ gap: 1em;
    grid-template-columns: 1fr 1fr;
 }
 .p_text{
-    font-family:monospace;
+    font-family: 'Fira Sans', sans-serif;
     font-weight:400;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.game_pad{
+    width: 90%;
+}
+
+/* inner text div  */
+.inner_text_div{
+border: solid yellow 2px;
+display: flex;
+justify-content: space-between;
+border-radius: 10px;
+box-shadow: -2px 3px 6px ;
+box-sizing: border-box;
+}
+/* .inner_icon{
+    width:;
+} */
+.cite_under{
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 0.8em;
+
+}
+.grid_section{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:1fr ;
+    padding: 50px;
+    grid-template-areas: ;
+}
+.grid_block{
+}
+.grid_icons{
+    width: 70%;
+}
+/* media queries area do not touch */
+@media screen and (max-width:550px) {
+    .game_pad{
+        grid-area: game_pad;
+    }
+    .section_grid{
+        grid-template-columns: 1fr;
+        grid-template-areas: "game_pad"
+        "test_div";
+    }
+    .test_div{
+        grid-area: test_div;
+    }
+    .head_logo{
+        width: 50px;
+    }
+.form_button, .form_button_2{
+    width: 100%;
+}
+.list_div{
+    gap: 0em;
+}
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.inner_text_div{
+    border: solid yellow 2px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: white;
+    box-sizing: border-box;
+    box-shadow: inset;
+    flex-wrap: wrap;
+    }
+    .inner_icon{
+        width:100%;
+    }
 }
