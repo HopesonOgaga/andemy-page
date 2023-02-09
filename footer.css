@@ -1,0 +1,89 @@
+*{
+margin:0px;
+padding: 0px;
+}
+
+
+.contact_body{
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.contact_border{
+    background-color: #F6F4FC;
+    width:65vw;
+    height: 40vh;
+    
+}
+
+.form{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  height: 30vh;
+  text-transform: capitalize;
+  font-size: 1.4em;
+  font-weight: 600;
+  font-family: monospace;
+  
+}
+
+.send{
+    text-align: center;
+    width:7vw;
+    height:5vh;
+    background-color:#6750A4;
+    border: solid 1px #6750A4;
+    color: #F6F4FC;;
+}
+.p_contact_us{
+    font-size:2.5em;
+    font-weight:500;
+    font-family:monospace;
+    text-transform:capitalize;
+    text-align: center;
+
+}
+
+.copyright{
+    font-size: 1.4em;
+    font-family: monospace, 'inter';
+    font-weight: 600;
+    text-transform: capitalize;
+    
+}
+
+
+.icons_container{
+    background-color:#2A2A29;
+    margin: ;
+}
+
+.div_container_icons{
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    border: 1px #AFAFAF solid;
+}
+.icons_image{
+ margin-left: 10px;
+}
+
+.icons_button{
+width: 200px;
+height: 60px;
+text-transform: capitalize;
+font-size: 2em;
+color:#000000;
+font-weight: 800;
+background-color: #AFAFAF;
+font-family: monospace;
+}
+
+
+
+.but{
+    border-top:solid 1px white;
+
+}

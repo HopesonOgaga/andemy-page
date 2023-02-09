@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    margin: 10px;
     padding: 0px;
     text-decoration: none;
     list-style-type: none;
@@ -79,7 +79,7 @@ a:hover{
    grid-template-columns: 1fr 1fr;
 }
 .p_text{
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans',monospace, sans-serif;
     font-weight:400;
     font-size: 1.2em;
     padding-left: 10px;
@@ -91,35 +91,169 @@ a:hover{
 
 /* inner text div  */
 .inner_text_div{
-border: solid yellow 2px;
+border: solid white 2px;
 display: flex;
 justify-content: space-between;
 border-radius: 10px;
 box-shadow: -2px 3px 6px ;
 box-sizing: border-box;
+margin-top:40px;
+margin-bottom:40px;
 }
-/* .inner_icon{
-    width:;
-} */
+
 .cite_under{
-    font-weight: 300;
+    font-weight: lighter;
     text-transform: capitalize;
     text-align: left;
-    font-size: 0.8em;
+    font-size:0.9em;
+    padding: 20px;
+    font-family:  'Fira Sans', monospace;
 
 }
 .grid_section{
-    display: grid;
-    grid-template-columns:repeat(4,1fr);
-    grid-template-rows:1fr ;
-    padding: 50px;
-    grid-template-areas: ;
+ display: flex;
+ justify-content: center;
 }
-.grid_block{
+.icon_new{
+    display: flex;
+    align-content: flex-end;
+
 }
-.grid_icons{
-    width: 70%;
+
+
+.p_ptext{
+    font-size: 1.3em;
+    font-family: monospace;
+    text-transform: capitalize;
 }
+.p_text_icon{
+    font-size: 1em;
+    font-weight: 500;
+    font-family: monospace;
+    text-transform: capitalize;
+}
+.height_div{
+    height: 25vh;
+}
+/* ui text */
+/* .ui_text{
+text-transform: capitalize;
+font-weight: 500;
+font-family:'Poppins', sans-serif;
+font-size: 1.3em;
+}
+.ui_under{
+font-weight:600;
+font-size: 1.3em;
+text-transform: capitalize;
+font-family:'Poppins', sans-serif;
+}
+
+.contact_body{
+    display: flex;
+    justify-content: center;
+}
+
+.contact_border{
+    background-color: #F6F4FC;
+    width:65vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+} */
+
+/* section_button */
+
+
+
+
+
+.form_info{
+    display: flex;
+    justify-content:center ;
+}
+.subject{
+    width: 60vw;
+    height: 10vh;
+    margin-bottom: 30px;
+    margin-top: 20PX;
+    border:solid 1px;
+
+}
+.message{
+    width: 60vw;
+    height: 30vh;
+    margin-bottom: 30px;
+    margin-top: 20PX;
+    border:solid 1px;
+}
+::placeholder{
+    font-size: 2em;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-family: monospace;
+    padding-left: 10px;
+    color: #505050;
+    position: absolute;
+}
+.p_message{
+    margin-top: 80px;
+    font-size:2.5em;
+    text-transform: capitalize;
+    font-family: monospace;
+    font-weight: 600;
+}
+.send_message{
+width: 20vw;
+height: 5vh;
+text-transform: capitalize;
+font-size: 1.5em;
+color: #ffff;
+font-family: monospace;
+background-color: #6750A4;
+text-align: center;
+border: 1px solid white;
+
+}
+.inder_div{
+display: flex;
+justify-content: end;
+}
+/* last footer */
+
+.botoom_footer{
+    background: #F6F4FC;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+.footer_icons{
+    width: 45px;
+    margin-left: 20px;
+}
+
+.footer_first_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.andemy_footer{
+    width: 200px;
+}
+.line_div{
+   border:  #6750A4 solid 1px;
+   margin: 20px;
+}
+.last_p_tag{
+    font-size: 1.4em;
+    text-transform: capitalize;
+    color: #6750A4;
+    font-family: monospace;
+   
+}
+
+
+
+
 /* media queries area do not touch */
 @media screen and (max-width:550px) {
     .game_pad{
